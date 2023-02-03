@@ -1,0 +1,65 @@
+setting auto_restore_mw_cel_lib_setup true
+Initializing gui preferences from file  /u/vpamidi/.synopsys_dv_prefs.tcl
+dc_shell> set top_design adder_1a
+adder_1a
+dc_shell> gui_start
+4.1
+dc_shell> read_file -format sverilog {/home/vpamidi/common/Downloads/lab3-vpamidi9-master/syn/rtl/simple_adder_1a.sv}
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/gtech.db'
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/standard.sldb'
+  Loading link library 'gtech'
+Loading sverilog file '/home/vpamidi/common/Downloads/lab3-vpamidi9-master/syn/rtl/simple_adder_1a.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/dw_foundation.sldb'
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Warning: The following synthetic libraries should be added to 
+        the list of link libraries: 
+        'dw_foundation.sldb'. (UISN-26)
+Compiling source file /home/vpamidi/common/Downloads/lab3-vpamidi9-master/syn/rtl/simple_adder_1a.sv
+Presto compilation completed successfully.
+Current design is now '/home/vpamidi/common/Downloads/lab3-vpamidi9-master/syn/rtl/adder1.db:adder1'
+Loaded 2 designs.
+Current design is 'adder1'.
+dc_shell> 
+Current design is 'adder1'.
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/generic.sdb'
+dc_shell> remove_design -designs
+Removing design 'adder1'
+Removing design 'adder_1a'
+dc_shell> read_file -format sverilog {/home/vpamidi/common/Downloads/lab3-vpamidi9-master/syn/rtl/simple_adder_1a.sv}
+Loading sverilog file '/home/vpamidi/common/Downloads/lab3-vpamidi9-master/syn/rtl/simple_adder_1a.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Warning: The following synthetic libraries should be added to 
+        the list of link libraries: 
+        'dw_foundation.sldb'. (UISN-26)
+Compiling source file /home/vpamidi/common/Downloads/lab3-vpamidi9-master/syn/rtl/simple_adder_1a.sv
+Presto compilation completed successfully.
+Current design is now '/home/vpamidi/common/Downloads/lab3-vpamidi9-master/syn/rtl/adder_1a.db:adder_1a'
+Loaded 2 designs.
+Current design is 'adder_1a'.
+dc_shell> 
+Current design is 'adder_1a'.
+dc_shell> remove_design -designs
+Removing design 'adder_1a'
+Removing design 'adder1'
+dc_shell> read_file -format sverilog {/home/vpamidi/common/Downloads/lab3-vpamidi9-master/syn/rtl/simple_adder_1b.sv}
+Loading sverilog file '/home/vpamidi/common/Downloads/lab3-vpamidi9-master/syn/rtl/simple_adder_1b.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Warning: The following synthetic libraries should be added to 
+        the list of link libraries: 
+        'dw_foundation.sldb'. (UISN-26)
+Compiling source file /home/vpamidi/common/Downloads/lab3-vpamidi9-master/syn/rtl/simple_adder_1b.sv
+Presto compilation completed successfully.
+Current design is now '/home/vpamidi/common/Downloads/lab3-vpamidi9-master/syn/rtl/adder2.db:adder2'
+Loaded 2 designs.
+Current design is 'adder2'.
+dc_shell> 
+Current design is 'adder2'.

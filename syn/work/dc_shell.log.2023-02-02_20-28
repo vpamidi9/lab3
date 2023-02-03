@@ -1,0 +1,37 @@
+setting auto_restore_mw_cel_lib_setup true
+Initializing gui preferences from file  /u/vpamidi/.synopsys_dv_prefs.tcl
+dc_shell> set top_design adder_1a
+adder_1a
+dc_shell> source ../scripts/dc-adder_1a.tcl
+== ANALYZE autoread all files ==
+
+Starting ANALYZE autoread mode...
+Warning: Defining design library 'WORK' at directory '/home/vpamidi/common/Downloads/lab3-vpamidi9-master/syn/work/WORK_autoread'. (AUTOREAD-107)
+Error: Source ../rtl/adder_1a.sv not found.  (AUTOREAD-200)
+*** Autoread command terminated with errors. ***
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db'
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/dw_foundation.sldb'
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/gtech.db'
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/standard.sldb'
+  Loading link library 'saed32rvt_ss0p95v125c'
+  Loading link library 'gtech'
+Error: Cannot find the design 'adder_1a' in the library 'WORK'. (LBR-0)
+Error: Current design is not defined. (UID-4)
+Error: could not open script file "../../constraints/adder_1a.sdc" (CMD-015)
+Error: Current design is not defined. (UID-4)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: No files or designs were specified. (UID-22)
+Error: No files or designs were specified. (UID-22)
+Error: Current design is not defined. (UID-4)
+0
+dc_shell> 
+
+Memory usage for this session 143 Mbytes.
+Memory usage for this session including child processes 143 Mbytes.
+CPU usage for this session 3 seconds ( 0.00 hours ).
+Elapsed time for this session 457 seconds ( 0.13 hours ).
+
+Thank you...
